@@ -16,31 +16,33 @@
 </head>
 
 <body>
-
   <header>
-    <nav>
+    <nav class="nav">
       <img src="assets/logo.svg" alt="">
     </nav>
   </header>
 
-  <main>
+  <main class="intro">
     <section>
 
-      <picture>
-        <source srcset="assets/desktop/image-hero-left.png">
-        <source srcset="assets/desktop/image-hero-right.png" media="(min-width: 992px)">
-        <img src="assets/tablet/image-hero.png" alt="user-image collage">
-      </picture>
+      <img class="img__overflow" src="assets/tablet/image-hero.png" alt="user-image collage">
 
-      <h1>Group Chat for Everyone</h1>
-      <p>Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
+      <div class="intro__wrapper intro__content">
+        <img class="large__screen--visible" src="assets/desktop/image-hero-left.png" alt="user-image collage">
+        <h1 class="main__title">Group Chat for Everyone</h1>
+        <p  class="intro__text clr__slate--600">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
 
-      <button>Download v1.3</button>
-      <button>What is it?</button>
+        <div class="row">
+          <button class="btn btn__cyan">Download <span class="clr__cyan--300">v1.3</span></button>
+          <button class="btn btn__purple">What is it?</button>
+        </div>
+
+        <img class="large__screen--visible" src="assets/desktop/image-hero-right.png" alt="user-image collage">
+      </div>
 
     </section>
 
-    <section>
+    <section class="">
 
       <div>
         <p>01</p>
@@ -54,11 +56,11 @@
       </div>
 
       <div>
-        <p>Built for modern use</p>
+        <p class="hero__subtitle">Built for modern use</p>
 
-        <h2>Smarter meetings, all in one place</h2>
+        <h2 class="hero__title">Smarter meetings, all in one place</h2>
 
-        <p>Send messages, share files, show your screen, and record your meetings — all in one
+        <p class="hero__text clr__slate--600">Send messages, share files, show your screen, and record your meetings — all in one
           workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
       </div>
 
@@ -69,7 +71,7 @@
     </section>
   </main>
 
-  <footer>
+  <footer class="bg__accent">
     <div>
       <picture>
         <source srcset="assets/desktop/image-footer.jpg" media="(min-width: 992px)">
@@ -78,10 +80,10 @@
       </picture>
     </div>
     <div>
-      <h2>Experience more together</h2>
+      <h2 class="footer__title">Experience more together</h2>
       <p>Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
 
-      <button>Download v1.3</button>
+      <button class="btn btn__purple">Download <span class="clr__purple--300">v1.3</span></button>
     </div>
   </footer>
 </body>
