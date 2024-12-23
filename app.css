@@ -139,7 +139,6 @@ body {
     /* object-position: -1.82em; */
     object-fit: fill;
     margin-bottom: 3em;
-
 }
 
 .img__large-screen--visible {
@@ -169,7 +168,6 @@ body {
 
 .intro__text {
     margin-bottom: 1.5rem;
-
 }
 
 .btn {
@@ -181,27 +179,28 @@ body {
     line-height: 1.5;
 }
 
-.hero {
+.main {
     padding: 2em 2em 2.25em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    place-items: center;
 }
 
-.hero__shape {
+.abstract__shape {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 4em;
+    overflow: hidden;
 }
 
-.hero__line {
+.shape__line {
     height: 80px;
     color: var(--slate-600);
-    border: 1px solid var(--slate-600);
+    border-right: -1px solid var(--slate-600);
+    border-left: 1px solid var(--slate-600);
 }
 
-.hero__circle {
+.shape__circle {
     min-width: 56px;
     height: 56px;
     color: var(--slate-900);
@@ -211,12 +210,12 @@ body {
     font-weight: 600;
 }
 
-.hero__num {
+.shape__figure {
     text-align: center;
     color: var(--slate-600);
 }
 
-.hero__images {
+.main__images {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
@@ -227,7 +226,10 @@ body {
     border-radius: .5rem;
 }
 
-.hero__content {
+.main__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     width: 100%;
     max-width: 34rem;
@@ -256,13 +258,13 @@ body {
     top: 0;
 }
 
-.hero__shape--position {
+.abstract__shape--position {
     margin-bottom: 0;
     position: relative;
     top: 1.75em;
 }
 
-.hero__circle--bg {
+.shape__circle--bg {
     background: var(--white);
     z-index: 1;
 }
@@ -273,7 +275,6 @@ body {
     background-blend-mode: soft-light;
     background-size: cover;
     background-repeat: repeat-x;
-
 }
 
 .footer__display {
@@ -322,19 +323,23 @@ body {
         object-position: -1.6em;
         object-fit: fill;
         margin-bottom: 4.5em;
-        /* check if calc can be used to avoid media queries*/
     }
 
     .intro {
         padding-bottom: 4em;
     }
 
-    .hero {
+    .main {
         padding-top: 3.5em;
-        /* padding-bottom: 4em; */
     }
 
-    .hero__images {
+    .section__title--width {
+        width: calc(85% - 1vw);
+        text-wrap: stable;
+        place-self: center;
+    }
+
+    .main__images {
         grid-template-columns: repeat(4, 1fr);
         gap: 1.5rem;
     }
@@ -364,10 +369,6 @@ body {
         object-position: 1.6em;
     }
 
-    .intro {
-        padding-bottom: 5em;
-    }
-
     .intro__wrapper {
         display: flex;
         justify-content: space-between;
@@ -378,18 +379,14 @@ body {
         margin-inline: 2em;
     }
 
-    .main__title {
-        margin-bottom: 2rem;
-    }
-
+    .main__title,
     .intro__text {
         margin-bottom: 2rem;
     }
 
-    .hero {
+    .main {
         padding-inline: 5em;
         padding-bottom: 2.75em;
-
     }
 
     .bg__accent {
@@ -407,7 +404,6 @@ body {
         justify-content: space-between;
         align-items: flex-start;
         gap: 1.5rem;
-
     }
 
     .section__title--footer {
@@ -420,7 +416,6 @@ body {
         margin-inline: 2em;
         margin-bottom: 0;
         width: 45%;
-
     }
 
 }
