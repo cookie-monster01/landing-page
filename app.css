@@ -95,20 +95,33 @@ body {
     text-wrap: nowrap;
 }
 
+.btn__cyan:focus-visible,
+.btn__cyan:hover,
+.btn__cyan:active {
+    background: #71C0D4;
+}
+
 .clr__cyan--300 {
     color: var(--cyan-300);
     margin-left: .25em;
 }
+
 
 .btn__purple {
     background: var(--purple-600);
     text-wrap: nowrap;
 }
 
+.btn__purple:focus-visible,
+.btn__purple:hover, .btn__purple:active {
+    background: #B18BDD;
+}
+
 .clr__purple--300 {
     color: var(--purple-300);
     margin-left: .25em;
 }
+
 
 .text__font {
     font-size: clamp(.995rem, .956rem + .19vw, 1.125rem);
@@ -152,6 +165,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 0 2em;
+    overflow-x: hidden;
 }
 
 .intro__content {
