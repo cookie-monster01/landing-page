@@ -391,7 +391,6 @@ body {
         min-height: 22.5rem;
         justify-content: space-between;
         align-items: center;
-        overflow-y: visible;
         padding-inline: 0;
     }
 
