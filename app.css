@@ -238,7 +238,7 @@ body {
 
 .shape__figure {
     text-align: center;
-    color: var(--slate-600);
+    color: var(--slate-900);
 }
 
 .main__images {
@@ -416,6 +416,7 @@ body {
     }
 
     .intro__content {
+        align-self: center;
         margin-inline: 2em;
     }
 
