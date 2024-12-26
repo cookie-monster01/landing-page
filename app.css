@@ -362,9 +362,9 @@ body {
         gap: 1.5rem;
     }
 
-    .main__img {
+    /* .main__img {
         height: 10rem;
-    }
+    } */
 
     .section__title--main {
         width: 82%;
@@ -432,7 +432,7 @@ body {
     }
 
     /* .main__img {
-        height: 16rem;
+        height: auto;
     } */
 
     .main__title,
@@ -454,7 +454,7 @@ body {
         margin: 0;
         display: flex;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
         gap: 2.5rem;
     }
 
