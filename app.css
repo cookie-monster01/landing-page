@@ -135,8 +135,6 @@ body {
     font-size: clamp(1.989rem, 4.736vw, 2.5rem);
     color: var(--slate-900);
     font-weight: 900;
-    max-width: 445px;
-    text-wrap: stable;
 }
 
 .nav {
@@ -280,6 +278,8 @@ body {
 }
 
 .section__title--main {
+    max-width: 445px;
+    text-wrap: stable;
     margin-bottom: 2rem;
 }
 
@@ -367,12 +367,6 @@ body {
     /* .main__img {
         height: 10rem;
     } */
-
-    /* .section__title--main {
-        width: 82%;
-        text-wrap: stable;
-    } */
-
 
     .bg__accent {
         background-image: url(assets/tablet/image-footer.jpg);
@@ -462,8 +456,8 @@ body {
 
     .section__title--footer {
         margin-bottom: 0;
-        /* width: 38%; */
-        /* text-wrap: stable; */
+        max-width: 445px;
+        text-wrap: stable;
     }
 
     .footer__text {
