@@ -379,6 +379,10 @@ body {
 
 @media (min-width: 1200px) {
 
+    .nav {
+        padding-top: 5em;
+    }
+
     .img__small-screen--container {
         display: none;
     }
