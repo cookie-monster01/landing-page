@@ -451,7 +451,7 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        gap: 1rem;
+        gap: 1.5rem;
     }
 
     .section__title--footer {
@@ -461,8 +461,8 @@ body {
     }
 
     .footer__text {
-        margin-inline: 2em;
+        margin-right: 4em;
         margin-bottom: 0;
-        width: 40%;
+        width: 34%;
     }
 }
