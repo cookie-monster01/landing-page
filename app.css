@@ -223,15 +223,15 @@ body {
 
 .shape__line {
     height: 80px;
-    border-right: -1.5px solid var(--slate-600);
-    border-left: 1.5px solid var(--slate-600);
+    border-right: -1px solid var(--slate-600);
+    border-left: 1px solid var(--slate-600);
 }
 
 .shape__circle {
     min-width: 56px;
     height: 56px;
     padding: 1em;
-    border: 1.5px solid var(--slate-600);
+    border: 1px solid var(--slate-600);
     border-radius: 50%;
     font-weight: 600;
 }
