@@ -397,8 +397,11 @@ body {
 
     .img__large-screen--visible {
         visibility: visible;
-        width: auto;
-        height: 303px;
+        /* width: auto;
+        height: 303px; */
+
+        width: 27.4%;
+        height: 27.4%;
     }
 
     .img__large-screen--position-left {
