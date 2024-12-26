@@ -233,12 +233,13 @@ body {
     padding: 1em;
     border: 1px solid var(--slate-600);
     border-radius: 50%;
-    font-weight: 600;
+    
 }
 
 .shape__figure {
     text-align: center;
-    color: var(--slate-900);
+    color: var(--slate-600);
+    font-weight: 900;
 }
 
 .main__images {
@@ -430,9 +431,9 @@ body {
         gap: 2rem;
     }
 
-    .main__img {
+    /* .main__img {
         height: 16rem;
-    }
+    } */
 
     .main__title,
     .intro__text {
