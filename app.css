@@ -458,13 +458,13 @@ body {
 
     .section__title--footer {
         margin-bottom: 0;
-        width: 40%;
+        width: 38%;
         text-wrap: stable;
     }
 
     .footer__text {
         margin-inline: 2em;
         margin-bottom: 0;
-        width: 37%;
+        width: 35%;
     }
 }
