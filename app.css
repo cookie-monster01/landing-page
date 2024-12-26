@@ -329,9 +329,9 @@ body {
     margin-bottom: 1.5rem;
 }
 
-.btn__purple--footer {
+/* .btn__purple--footer {
     opacity: .85;
-}
+} */
 
 
 @media (min-width: 416px) {
@@ -455,8 +455,8 @@ body {
         margin: 0;
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        gap: 2.5rem;
+        align-items: flex-start;
+        gap: 1rem;
     }
 
     .section__title--footer {
