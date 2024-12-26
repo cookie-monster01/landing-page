@@ -235,7 +235,7 @@ body {
     padding: 1em;
     border: 1px solid var(--slate-600);
     border-radius: 50%;
-    
+
 }
 
 .shape__figure {
@@ -407,7 +407,7 @@ body {
         height: 303px;
     }
 
-    .img__large-screen--position-left { 
+    .img__large-screen--position-left {
         align-self: flex-start;
         object-position: -1.6em;
     }
@@ -433,6 +433,7 @@ body {
     }
 
     /* .main__img {
+        height: 16rem;
         height: auto;
     } */
 
