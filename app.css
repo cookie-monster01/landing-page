@@ -417,6 +417,7 @@ body {
 
     .intro__content {
         margin-inline: 2em;
+        align-self: flex-end;
     }
 
     .wrapper {
