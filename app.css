@@ -83,6 +83,7 @@ h6 {
 
 body {
     font-family: "Red Hat Display", serif;
+    min-height: 100vh;
 }
 
 
