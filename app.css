@@ -388,23 +388,31 @@ body {
         display: none;
     }
 
+
     .intro__wrapper {
+        height: 100%;
+        min-height: 22.5rem;
         justify-content: space-between;
+        align-items: center;
+        overflow-y: visible;
         padding-inline: 0;
     }
 
     .img__large-screen--visible {
         visibility: visible;
         width: auto;
-        height: auto;
+        height: 303px;
     }
 
-    .img__large-screen--position-left {
+    .img__large-screen--position-left { 
+        align-self: flex-start;
         object-position: -1.6em;
     }
 
     .img__large-screen--position-right {
+        align-self: flex-end;
         object-position: 1.6em;
+
     }
 
     .intro__content {
